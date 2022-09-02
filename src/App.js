@@ -31,16 +31,18 @@ function App() {
       <FormInput addTask={handleAddTask} />
       <List
         header={
-          <h3>
-            Количество задач <strong style={{ fontSize: '20px' }}>{todoList.length} </strong>{' '}
-          </h3>
+          <div>
+            <h3>
+              Количество задач <strong style={{ fontSize: '20px' }}>{todoList.length} </strong>{' '}
+            </h3>
+          </div>
         }
         footer={<div>Добавьте новую задачу</div>}
         bordered
         rowKey={id}
         dataSource={todoList}
         renderItem={(item, rowKey) => (
-          <List.Item>
+          <List.Item style={{ display: 'flex' }}>
             {item.text}{' '}
             <DeleteTwoTone
               onClick={() => handleDeleteTask(rowKey)}
