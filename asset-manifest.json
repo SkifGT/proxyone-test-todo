@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proxyone-test-todo/static/css/main.8d665aa6.css",
+    "main.js": "/proxyone-test-todo/static/js/main.68aff9b3.js",
+    "index.html": "/proxyone-test-todo/index.html",
+    "main.8d665aa6.css.map": "/proxyone-test-todo/static/css/main.8d665aa6.css.map",
+    "main.68aff9b3.js.map": "/proxyone-test-todo/static/js/main.68aff9b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d665aa6.css",
+    "static/js/main.68aff9b3.js"
+  ]
+}
